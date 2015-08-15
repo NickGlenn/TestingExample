@@ -1,0 +1,26 @@
+{
+  "name": "testing-example",
+  "version": "1.0.0",
+  "description": "A simple example of unit testing using Mocha + Chai",
+  "main": "lib/helloworld.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NickGlenn/TestingExample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickGlenn/TestingExample/issues"
+  },
+  "homepage": "https://github.com/NickGlenn/TestingExample",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
